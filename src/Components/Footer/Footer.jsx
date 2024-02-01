@@ -1,10 +1,11 @@
 import React from "react";
 import Style from "./Footer.module.css";
+import img from "../../assets/edited_me.jpg";
 function Footer() {
     return (
         <footer className={Style.footer}>
             <figure>
-                <img className={Style.footpic} src="src/assets/edited_me.jpg" alt="" />
+                <img className={Style.footpic} src={img} alt="" />
             </figure>
             <div>
                 <h2 className={Style.greeting}>Lets talk!</h2>
