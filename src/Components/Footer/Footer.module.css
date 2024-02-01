@@ -1,0 +1,47 @@
+.footer {
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    padding-inline: 4rem;
+    padding-block: 1rem;
+    align-items: center;
+    background-color: var(--accent);
+}
+.footpic {
+    object-fit: cover;
+    border-radius: 50vw;
+    height: 10rem;
+    width: 10rem;
+}
+.greeting {
+    font-size: 2.5rem;
+    margin-block: 1rem;
+}
+.mailLink {
+    margin-bottom: 1rem;
+    font-size: large;
+}
+.mailLink:hover {
+    color: var(--secondary);
+}
+.socialList {
+    display: flex;
+    gap: 3rem;
+}
+
+.socialLink {
+    font-size: 3rem;
+}
+
+.socialLink:hover {
+    color: var(--secondary);
+}
+
+@media (max-width: 963px) {
+    .footer {
+        flex-direction: column;
+    }
+}

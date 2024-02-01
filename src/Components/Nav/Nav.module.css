@@ -1,0 +1,53 @@
+nav {
+    top: 0;
+    position: sticky;
+    width: 100%;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--accent);
+    gap: 2rem;
+    border-bottom: 1px solid var(--static);
+}
+.NavList {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.NavBtn:hover {
+    color: var(--secondary);
+}
+
+.darkMode {
+    height: 2rem;
+    width: 2rem;
+    /* border-radius: 50vh; */
+    background-color: transparent;
+    border: none;
+    left: 2rem;
+}
+
+.hamburger {
+    height: 2rem;
+    width: 2rem;
+    position: absolute;
+    right: 2rem;
+    color: var(--text);
+    background-color: transparent;
+    border: none;
+    z-index: 1;
+}
+
+@media (max-width: 963px) {
+    .NavList {
+        display: none;
+    }
+}
+@media (min-width: 963px) {
+    .hamburger {
+        display: none;
+    }
+}

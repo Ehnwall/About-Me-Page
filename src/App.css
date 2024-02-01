@@ -1,0 +1,21 @@
+main {
+    max-width: 80rem;
+    margin-inline: auto;
+}
+
+html,
+body,
+#root {
+    min-height: 100vh;
+}
+
+#root {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    place-items: center;
+}
+
+.container-title {
+    font-size: 3.5rem;
+    text-shadow: var(--background) 1px 0 2px;
+}

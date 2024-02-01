@@ -1,0 +1,11 @@
+.HomeWrapper {
+    display: grid;
+    gap: 2rem;
+    padding-bottom: 2rem;
+}
+
+@media (max-width: 888px) {
+    .HomeWrapper {
+        padding-block: 0;
+    }
+}

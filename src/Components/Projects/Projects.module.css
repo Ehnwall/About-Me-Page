@@ -1,0 +1,13 @@
+.container {
+    justify-content: center;
+    display: flex;
+    gap: 2rem;
+    background-color: var(--accent);
+    border-radius: 2rem;
+}
+
+@media (max-width: 971px) {
+    .container {
+        flex-direction: column;
+    }
+}
