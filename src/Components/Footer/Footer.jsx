@@ -5,7 +5,7 @@ function Footer() {
     return (
         <footer className={Style.footer}>
             <figure>
-                <img className={Style.footpic} src={img} alt="" />
+                <img className={Style.footpic} src={img} alt="animated pic of me" />
             </figure>
             <div>
                 <h2 className={Style.greeting}>Lets talk!</h2>

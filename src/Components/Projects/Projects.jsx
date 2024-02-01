@@ -7,14 +7,14 @@ function Projects() {
     const [data, setData] = useState([]);
 
     useEffect(() => {
-        // useEffect används för att hantera sidoeffekter
+        // useEffect to handle sideeffects
 
-        fetch(URL) // Gör ett HTTP GET-anrop till den angivna URL:en
+        fetch(URL) // make a HTTP GET-call to the assigned URL:
             .then((resp) => resp.json())
-            // Hanterar svaret från servern genom att omvandla det till JSON-format
+            // Handles the answer from the server by converting it JSON-format
             .then((data) => {
-                setData(data); // Uppdaterar komponentens state med den hämtade datan
-                console.log(data); //loggar egenskaper
+                setData(data); // Updates the component's state with the fetched data
+                console.log(data); //log properties
             });
     }, []);
 

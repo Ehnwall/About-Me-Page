@@ -1,73 +1,103 @@
-# Memory Game
+# Table of Contents
 
-This is a solution to the [JS1-examination](https://github.com/fe22-kyh/js1-examiniation).
-
-## Table of contents
-
--   [Overview](#overview)
-    -   [The challenge](#the-challenge)
-    -   [Screenshot](#screenshot)
-    -   [Links](#links)
--   [Our process](#our-process)
-    -   [Built with](#built-with)
-    -   [What We learned](#what-we-learned)
-    -   [Continued development](#continued-development)
--   [Author](#author)
-    -   [Dennis Ehnwall](#dennis-ehnwall)
-    -   [Pontus Boman](#pontus-boman)
+1. [Overview](#overview)
+2. [The Challenge](#the-challenge)
+3. [Installation](#installation)
+4. [Screenshot](#screenshot)
+5. [Links](#links)
+6. [My Process](#my-process)
+7. [Built With](#built-with)
+8. [What I Learned](#what-i-learned)
+9. [Continued Development](#continued-development)
+10. [Author](#author)
+11. [Acknowledgments](#acknowledgments)
+12. [React-Vite](#react-vite)
 
 ## Overview
 
-### The challenge
+This section provides a brief introduction to the project, outlining the goal of creating an interactive Single Page Application (SPA) serving as a CV or personal website using a JavaScript framework.
 
-<ul>
-    <li>When the game starts all the cards are placed randomly and facedown.</li>
-    <li>Each player takes turns to pick two cards.</li>
-    <ol type="a">
-        <li>If the two cards match, the player keeps them and gets another turn.</li>
-        <li>If they don't match, the cards are turned back over and it's the next player's turn.</li>
-    </ol>
-    <li>The game continues until all the cards have been matched and picked up.</li>
-    <li>The player with the most pairs of cards is the winner.</li>
-</ul>
+## The Challenge
 
-### Screenshot
+Develop a dynamic Single Page Application (SPA) designed to function as an interactive resume or personal website using a JavaScript framework. The web application should showcase details about yourself, encompassing your expertise, professional background, projects, and contact details.
 
-![](https://github.com/Ehnwall/Memory-Game/assets/143597703/bf28ae36-0977-47c9-bef0-7c8904108171)
+Upon completion, your project should adhere to the outlined component structure and data flow as specified in the written submission. Furthermore, the web app must fulfill the technical requirements detailed below.
 
-### Links
+Technical Requirements:
 
--   Live Site URL: [Live](https://ehnwall.github.io/Memory-Game/)
+Component Organization and Data Transfer
 
-## Our process
+Construct reusable components for organizing your website. Utilize props for seamless data transfer between components, ensuring an effective data flow. React Navigation
 
-### Built with
+Incorporate React Navigation to handle navigation across various sections or pages within the website. Ensure the inclusion of a minimum of three views, such as 'Personal Info,' 'Portfolio,' and 'Contact.' Use of useState Hook
 
+Implement the useState hook to manage local state in at least one component within your web app. For instance, consider using it for creating an interactive contact form or another engaging section. Global State Management with Redux
+
+Integrate Redux for overseeing global state management. This could involve handling user preferences, like theme or layout choices, or storing and managing data utilized by multiple components. Code Quality and Documentation
+
+Craft well-organized and clean code. Include comments where necessary to elucidate intricate or crucial segments of the code. Provide a README file offering insights into the project, instructions on how to run it, and an overview of its functionalities.
+
+## Installation
+
+1.  Clone the repo
+    ```sh
+    git clone https://https://github.com/Ehnwall/About-Me-Page
+    ```
+2.  Install NPM packages
+    ```sh
+    cd about-me-page
+    npm install
+    ```
+3.  Run projekt
+    ```sh
+    npm run dev
+    ```
+
+## Screenshot
+
+![image](<src/assets/Screenshot 2024-02-01 143851.png>)
+
+## Links
+
+-   Live Site URL: [Live Site](https://dennisehnwall.vercel.app)
+-   FigJam Sketch: [FigJam] (https://www.figma.com/file/qBgEXYSpKpebsHVUwXz7Uw/Untitled?type=whiteboard&node-id=0%3A1&t=bFkR8oruOmAkYic6-1)
+
+## My Process
+
+## Built With
+
+-   The project follows a modular CSS approach
 -   Semantic HTML5 markup
 -   CSS custom properties
--   Flexbox
 -   CSS Grid
+-   Flexbox
+-   React
 -   JavaScript
--   Session storage
+-   Redux
+-   Github-API
 
-### What We learned
+## What I Learned
 
-### Feature Roadmap
+Its my first time using React, i've learned how to manage routes, working with Redux, and fetching data from an API.
 
--   [x] Make the cards flip when clicked
--   [x] Change theme on:
-    -   [x] Website
-    -   [x] Cardback
--   [x] Play vs Computer
+## Continued Development
+
+While I find interest in working with React, I lack confidence in utilizing Redux and retrieving data from an API. This is an area I aspire to enhance through future projects.
 
 ## Author
 
-#### Dennis Ehnwall
+-   Website - [Min hemsida](https://dennisehnwall.vercel.app/)
+-   LinkedIn - [Dennis Ehnwall](https://www.linkedin.com/in/dennis-ehnwall-09524b29b/)
 
--   Website - [Dennis Ehnwall](https://www.your-site.com)
--   LinkedIn - [@yourusername](https://www.twitter.com/yourusername)
+## Acknowledgments
 
-#### Pontus Boman
+I want to thank my classmates who offered unwavering support and assistance throughout the project. Thanks for all the laughs. [Eric](https://www.linkedin.com/in/eric-classon-001b131a2/), [Kalle](https://www.linkedin.com/in/kalle-pettersson-b74724294/), [Pontus](https://www.linkedin.com/in/pontus-boman-aa85131bb/), and [Alvin](https://www.linkedin.com/in/alvin-samuelsson-7b07032a9/)
 
--   Website - [Pontus Boman](https://bomanstatic.github.io/)
--   LinkedIn - [@yourusername](https://www.twitter.com/yourusername)
+## React-Vite
+
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+-   [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+-   [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
