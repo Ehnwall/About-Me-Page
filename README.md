@@ -15,8 +15,6 @@
 
 ## Overview
 
-This section provides a brief introduction to the project, outlining the goal of creating an interactive Single Page Application (SPA) serving as a CV or personal website using a JavaScript framework.
-
 ## The Challenge
 
 Develop a dynamic Single Page Application (SPA) designed to function as an interactive resume or personal website using a JavaScript framework. The web application should showcase details about yourself, encompassing your expertise, professional background, projects, and contact details.
