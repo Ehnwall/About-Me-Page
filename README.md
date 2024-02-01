@@ -1,17 +1,17 @@
 # Table of Contents
 
-1. [Overview](#overview)
-2. [The Challenge](#the-challenge)
-3. [Installation](#installation)
-4. [Screenshot](#screenshot)
-5. [Links](#links)
-6. [My Process](#my-process)
-7. [Built With](#built-with)
-8. [What I Learned](#what-i-learned)
-9. [Continued Development](#continued-development)
-10. [Author](#author)
-11. [Acknowledgments](#acknowledgments)
-12. [React-Vite](#react-vite)
+-   [Overview](#overview)
+    -   [The challenge](#the-challenge)
+    -   [Installation](#Installation)
+    -   [Screenshot](#screenshot)
+    -   [Links](#links)
+-   [My process](#my-process)
+    -   [Built with](#built-with)
+    -   [What I learned](#what-i-learned)
+    -   [Continued development](#continued-development)
+-   [Author](#author)
+-   [Acknowledgments](#acknowledgments)
+-   [React-Vite](#React-Vite)
 
 ## Overview
 
