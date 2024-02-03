@@ -24,10 +24,10 @@ nav {
 .darkMode {
     height: 2rem;
     width: 2rem;
-    /* border-radius: 50vh; */
     background-color: transparent;
     border: none;
     left: 2rem;
+    transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
 }
 
 .hamburger {

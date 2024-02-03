@@ -6,7 +6,6 @@ import { ToggleTheme, isDarkmode } from "../../Store/themeSlice";
 import { useEffect } from "react";
 import Hamburger from "./Hamburger/Hamburger";
 
-// Functional component for the navigation bar
 function Nav() {
     // State to manage the visibility of the hamburger menu
     const [isOpen, setIsOpen] = useState(false);
